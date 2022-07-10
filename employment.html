@@ -1,0 +1,81 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>EMPLOYMENT ASSISTANCE</title>
+	</head>
+	<body>
+	<form name="employment" action="send.php" method="post" >	
+					<table width="550" border="1" bordercolor="blue" cellspacing="2" cellpadding="2">
+						
+					    <tr>
+							<td colspan="2">Employment application</td>
+						</tr>
+						<tr>
+							<td>First name </td>
+							<td><input type="text" name="fname" maxlength="25"/></td>
+						<tr>
+							<td>Last name</td>
+		     				<td><input type="text" name="fname" maxlength="25",placeholder="lname"required/></td>
+						</tr>
+						<tr>
+							<td>Position</td>
+							<td>
+									<select name="position">
+										<option value="AC">Accountant</option>
+										<option value="RE">Delivary boy</option>
+										<option value="AD">Administration</option>
+										<option value="SU">supervisor</option>
+									</select>
+							</td>	
+						</tr>
+						<tr>
+							<td>Educational Level</td>
+							<td>    <select name="Educational level">
+										<option value="TC">Tenth class </option>
+										<option value="IM">Inter Mediate</option>
+										<option value="GD">Graduation</option>									
+								    </select>
+							</td>
+						</tr>
+						<tr>
+							<td>Experiance Level</td>
+							<td>    <select name="Educational level">
+										<option value="0">Zero years </option>
+										<option value="2+">More than 2 Years</option>
+										<option value="AL">Already in the job</option>									
+								    </select>
+							</td>
+						</tr>
+						<tr>
+							<td>Job type</td>
+							<td>
+								<input type="checkbox" name="FT"/>Full time
+								<input type="checkbox" name="PT"/>Part time
+								<input type="checkbox" name="CT"/>Contract
+							</td>
+						</tr>
+						<tr>
+							<td>Employment status</td>
+							<td>
+								<input type="radio" name="estatus"/>Employed
+								<input type="radio" name="estatus"/>Unemployed
+								<input type="radio" name="estatus"/>Student
+							</td>
+						</tr>
+						<tr>
+							<td>Additional comments</td>
+							<td>
+							<textarea name="comments" cols="50" rows="5"></textarea>
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>
+								<input type="submit" name="submit" value="Submit"/>
+								<input type="reset" name="reset" value="Reset"/>
+							</td>	
+	                </table>
+	</form>		
+	</body>
+	
+</html>
